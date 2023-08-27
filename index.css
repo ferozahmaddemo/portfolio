@@ -10,8 +10,10 @@ body {
     background-color: #e6dada;
 }
 #about-me:hover{
-  background-color: #0edf3f;
+  background-color: #15b63a;
   padding: 5px;
+  border-color: #000000;
+  border-radius: 15px;
 }
 
 .container {
@@ -102,4 +104,33 @@ footer {
 
 .project-card a:hover {
     background-color: #555;
+}
+#qr-img-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d8d6d6;
+    border: #333;
+    border-radius: 15px;
+    padding: 0px;
+    margin: 20px;
+    
+    
+}
+#qr-img{
+    padding: 10px;
+    max-width: 12%;
+    height: auto;
+    height:auto;
+    border-radius: 5px;
+    float: right;
+}
+.clock{
+    --clock-size:360px;
+    width: var(--clock-size);
+    height: var(--clock-size);
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    border-radius: 50%;
+
 }
